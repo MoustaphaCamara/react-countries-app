@@ -44,9 +44,7 @@ const Countries = () => {
       </ul>
 
       {selectedRadio && (
-        <button onClick={() => setSelectedRadio("")}>
-          Annuler la recherche
-        </button>
+        <button onClick={() => setSelectedRadio("")}>Retirer le filtre</button>
       )}
       <ul>
         {data

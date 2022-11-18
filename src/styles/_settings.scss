@@ -27,6 +27,9 @@ body {
   font-family: $font-1;
   // @include verticalCenter;
 }
+.container {
+  padding: 16px;
+}
 li {
   list-style-type: none;
 }
