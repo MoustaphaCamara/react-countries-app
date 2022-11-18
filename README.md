@@ -6,4 +6,4 @@ This project was made with React.
 
 Useful for practicing js methods : map, filter, sort, slice...
 
-### `npm start`
+### `version 1 - 18/11/22`
