@@ -39,16 +39,18 @@
   }
 
   button {
+    color: $white;
     margin: 0 auto 20px;
     background: none;
     border: 2px solid $color-1;
     padding: 4px 10px;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer;
     transition: 0.2s;
 
     &:hover {
       background: $color-1;
+      color: $color-3;
     }
   }
 
