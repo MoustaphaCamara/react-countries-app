@@ -13,11 +13,18 @@
       "id": 3
     },
     {
-      "article": "Mouss",
-      "content": "Contenu édité",
-      "date": 1668948224965,
-      "updatedDate": 1668948232127,
-      "id": 4
+      "author": "V5",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloribus vel sunt laborum eos enim odit maxime corporis vero nihil voluptatum a, ullam delectus ad sit. Odit quis adipisci illo sit porro recusandae? Sequi, dolorum repellendus doloremque qui tempora beatae.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloribus vel sunt laborum eos enim odit maxime corporis vero nihil voluptatum a, ullam delectus ad sit.\nrajout de date d'édition",
+      "date": 1668958544801,
+      "updatedDate": 1668958896974,
+      "id": 5
+    },
+    {
+      "author": "Edits v3",
+      "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloribus vel sunt laborum eos enim odit maxime corporis vero nihil voluptatum a, ullam delectus ad sit. Odit quis adipisci illo sit porro recusandae? Sequi, dolorum repellendus doloremque qui tempora beatae.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloribus vel sunt laborum eos enim odit maxime corporis vero nihil voluptatum a, ullam delectus ad sit.\nTest de l'option édit avec date",
+      "date": 1668958556897,
+      "updatedDate": 1668961052960,
+      "id": 6
     }
   ]
 }

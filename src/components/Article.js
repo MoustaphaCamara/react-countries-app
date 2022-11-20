@@ -20,7 +20,7 @@ const Article = ({ article }) => {
   const handleEdit = () => {
     setIsEditing(false);
     const data = {
-      article: article.author,
+      author: article.author,
       content: editContent ? editContent : article.content,
       date: article.date,
       updatedDate: Date.now(),
@@ -35,13 +35,14 @@ const Article = ({ article }) => {
   };
 
   return (
-    <div
-      className="article"
-      style={{ background: isEditing ? "#61DAFB" : "white" }}
-    >
+    <div className="article" style={{ background: isEditing ? "#61DAFB" : "" }}>
       <div className="card-header">
         <h3>{article.author}</h3>
-        <em>Posté le {dateFormater(article.date)}</em>
+        {article.updatedDate ? (
+          <em>Dernière édition le {dateFormater(article.updatedDate)}</em>
+        ) : (
+          <em>Posté le {dateFormater(article.date)}</em>
+        )}
       </div>
       {isEditing ? (
         <textarea

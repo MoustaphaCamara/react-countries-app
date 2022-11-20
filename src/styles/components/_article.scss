@@ -1,7 +1,7 @@
 .article {
   margin: 10px 50px;
-  background: white;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  background: darken($color-3, 5%);
+  box-shadow: 0 0 5px $color-1;
   border-radius: 5px;
   padding: 15px;
 
@@ -30,12 +30,15 @@
     margin: 10px 0 5px;
 
     button {
-      width: 70px;
-      height: 20px;
+      width: 72px;
+      height: 24px;
       font-size: 0.7rem;
       margin: 0 2px;
       cursor: pointer;
-
+      transition: 0.4s;
+      background: $color-1;
+      border: 1px solid $color-1;
+      border-radius: 8px;
       &:hover {
         filter: brightness(110%);
       }
