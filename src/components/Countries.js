@@ -28,8 +28,8 @@ const Countries = () => {
           &nbsp; {rangeValue} pays
         </p>
 
-        {continents.map((continent) => (
-          <li>
+        {continents.map((continent, index) => (
+          <li key={index}>
             <input
               type="radio"
               name="continentRadio"

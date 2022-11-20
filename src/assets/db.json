@@ -1,0 +1,23 @@
+{
+  "articles": [
+    {
+      "author": "Moustapha",
+      "content": "Premier article ...\nLorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloribus vel sunt laborum eos enim odit maxime corporis vero nihil voluptatum a, ullam delectus ad sit. Odit quis adipisci illo sit porro recusandae? Sequi, dolorum repellendus doloremque qui tempora beatae.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloribus vel sunt laborum eos enim odit maxime corporis vero nihil voluptatum a, ullam delectus ad sit.",
+      "date": 1668944639573,
+      "id": 2
+    },
+    {
+      "author": "Camara",
+      "content": "Reactivité du blog - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloribus vel sunt laborum eos enim odit maxime corporis vero nihil voluptatum a, ullam delectus ad sit. Odit quis adipisci illo sit porro recusandae? Sequi, dolorum repellendus doloremque qui tempora beatae.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloribus vel sunt laborum eos enim odit maxime corporis vero nihil voluptatum a, ullam delectus ad sit.",
+      "date": 1668944695672,
+      "id": 3
+    },
+    {
+      "article": "Mouss",
+      "content": "Contenu édité",
+      "date": 1668948224965,
+      "updatedDate": 1668948232127,
+      "id": 4
+    }
+  ]
+}
